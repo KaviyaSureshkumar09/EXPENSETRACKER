@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# Personal Expense Tracker 👋
+# 📊 Expense Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple personal finance tracker built with **React Native** and **AsyncStorage**.  
+This app allows users to record expenses, group them by categories, view totals, and visualize spending patterns.
 
-## Get started
+## 📂 Project Structure
 
-1. Install dependencies
+EXPENSETRACKER/
+├── app/                 # 📱 Main app screens
+│   ├── _layout.js       # Bottom tab navigation
+│   ├── index.js         # Home / Overview screen
+│   ├── add.js           # Add Expense screen
+│   ├── settings.js      # Manage Categories / Settings
+│
+├── components/          # 🧩 Reusable components
+│   ├── ExpenseItem.js
+│   ├── ExpenseList.js
+│   ├── CategoryPicker.js
+│
+├── storage/             # 💾 AsyncStorage helpers
+│   ├── expenses.js
+│   ├── categories.js
+│
+├── assets/images/       # 🎨 App icons & images
+│
+├── App.js               # Expo entry file
+├── package.json         # Project metadata & dependencies
+├── babel.config.js      # Babel config (default)
+├── app.json             # Expo app config
+├── README.md            # Project documentation
+└── .gitignore           # Git ignore rules
 
+## 🚀 Features
+- ➕ **Add Expense** with category, amount, and description  
+- 📋 **View Expenses List** grouped by date and category  
+- 🔍 **Search / Filter** expenses by category or note  
+- 🧮 **Totals Updating** (Today, This Week, This Month, Total)  
+- 💾 **Data Persistence** using AsyncStorage  
+- ⚙️ **Settings Screen** to manage categories & clear all data  
+- 📊 **Pie Chart Summary** of expenses (Bonus feature)  
+
+## 🛠️ Setup Instructions
+1. Clone this repo:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/KaviyaSureshkumar09/EXPENSETRACKER.git
+   cd EXPENSETRACKER
+ 2. Install dependencies:
+ 
+npm install
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+3. Start the project:
 
-In the output, you'll find options to open the app in a
+npx expo start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+🎥 Demo Video
 
-When you're ready, run:
+👉 Watch the Demo Video
 
-```bash
-npm run reset-project
-```
+https://drive.google.com/file/d/1F6V5ItwMCrLRe1N31aUpZV_WDtIBhMh5/view?usp=drivesdk
+📌 Deliverables
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Organized folder structure (app/, components/, storage/)
 
-## Learn more
+README.md with setup instructions and feature list
 
-To learn more about developing your project with Expo, look at the following resources:
+Demo video link included...
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
