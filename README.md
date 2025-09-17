@@ -38,7 +38,21 @@ EXPENSETRACKER/
 - 🧮 **Totals Updating** (Today, This Week, This Month, Total)  
 - 💾 **Data Persistence** using AsyncStorage  
 - ⚙️ **Settings Screen** to manage categories & clear all data  
-- 📊 **Pie Chart Summary** of expenses (Bonus feature)  
+- 📊 **Pie Chart Summary** of expenses (Bonus feature)
+- 
+🚀 Setup Instructions
+
+1. Prerequisites
+
+Make sure you have the following installed:
+
+Node.js (LTS version recommended)
+
+npm or yarn
+
+Expo CLI (for running the React Native app)
+
+Visual Studio Code (or any preferred code editor)
 
 ## 🛠️ Setup Instructions
 1. Clone this repo:
