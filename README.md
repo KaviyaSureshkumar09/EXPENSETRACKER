@@ -46,13 +46,35 @@ EXPENSETRACKER/
    git clone https://github.com/KaviyaSureshkumar09/EXPENSETRACKER.git
    cd EXPENSETRACKER
  2. Install dependencies:
- 
+    Make sure to install these before running the project:
+
+npm install expo expo-router react-native-chart-kit react-native-svg
+npm install @react-navigation/native @react-navigation/bottom-tabs
+npm install @expo/vector-icons
+npm install @react-native-async-storage/async-storage
+npm install react-native-get-random-values uuid
+
+▶️ Run the App
+
+## 🛠️ Setup Instructions
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/KaviyaSureshkumar09/EXPENSETRACKER.git
+   cd EXPENSETRACKER
+
+2. Install dependencies
+
 npm install
 
 
-3. Start the project:
+3. Start the development server
 
-npx expo start
+npx expo start -c
+
+
+4. Scan the QR code with Expo Go (on iOS/Android)
+ 
+
 
 
 
